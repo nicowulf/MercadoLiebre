@@ -224,8 +224,16 @@ footer section div p {
     padding-bottom: 10px;
 }
 
-.icono-footer:hover {
-    color: coral
+.fa-credit-card:before {
+    content: "\f09d";
+}
+
+.fa-gift {
+    content: "\f09d";
+}
+
+.fa-user-shield  {
+    content: "\f09d";
 }
 
 .Copyright {
@@ -335,7 +343,7 @@ footer section div p {
 }
 
 @media (min-width: 1080px) {
-    
+
     main section article .description {
         display: block;
     }
